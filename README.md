@@ -22,6 +22,8 @@ Remote repository가 자동으로 지정되어, push & pull 을 할 수 있게 �
 
 작업을 시작하기 전 항상 `pull` 하는 습관을 들입시다!
 
+**주의: 현재 작업 디렉토리의 변경사항이 commit되지 않은 채 `pull`하면, 변경사항이 사라집니다.**
+
 ```bash
 ~/workspace/Inpen-Dansim-OSAM2020$  git fetch origin
 ~/workspace/Inpen-Dansim-OSAM2020$  git merge
