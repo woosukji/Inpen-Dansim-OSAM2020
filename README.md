@@ -24,7 +24,7 @@ Remote repository가 자동으로 지정되어, push & pull 을 할 수 있게 �
 
 ```bash
 ~/workspace/Inpen-Dansim-OSAM2020$  git fetch origin
-~/workspace/Inpen-Dansim-OSAM2020$  git
+~/workspace/Inpen-Dansim-OSAM2020$  git pull origin/main
 ```
 
 #### 1.1.3. Add & Commit to Local Repository
