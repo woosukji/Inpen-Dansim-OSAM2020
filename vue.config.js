@@ -3,6 +3,7 @@ module.exports = {
   devServer: {
     disableHostCheck: true
   },
-  publicPath: process.env.NODE_ENV === "production" ? "/Inpen-Dansim-OSAM2020/" : "/",
+  publicPath:
+    process.env.NODE_ENV === "production" ? "/Inpen-Dansim-OSAM2020/" : "/",
   outputDir: "docs"
 };
