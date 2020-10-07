@@ -72,6 +72,7 @@ Remote repository가 자동으로 지정되어, push & pull 을 할 수 있게 �
 ### 1.5. Push to Remote Repository
 본인이 작업하던 `develop` branch 에서 remote repository 로 push 합니다.
 ```bash
+// 
 ~/workspace/Inpen-Dansim-OSAM2020$  git push origin develop
 ```
 
