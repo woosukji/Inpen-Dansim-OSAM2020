@@ -3,7 +3,8 @@ module.exports = {
   devServer: {
     disableHostCheck: true
   },
-  publicPath: "/",
+  publicPath:
+    process.env.NODE_ENV === "production" ? "/Inpen-Dansim-OSAM2020/" : "/",
   outputDir: "docs",
   transpileDependencies: ["vuetify"]
 };
