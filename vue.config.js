@@ -5,5 +5,6 @@ module.exports = {
   },
   publicPath:
     process.env.NODE_ENV === "production" ? "/Inpen-Dansim-OSAM2020/" : "/",
-  outputDir: "docs"
+  outputDir: "docs",
+  transpileDependencies: ["vuetify"]
 };

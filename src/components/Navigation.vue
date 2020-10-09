@@ -1,9 +1,23 @@
 <template>
-  <div class="navigation">
+  <!-- <div class="navigation">
     <router-link to="/">인편단심</router-link>
     <router-link v-if="!loggedIn" to="/login">Log-In</router-link>
     <button v-else @click="handleLogOut">Log-Out</button>
-  </div>
+  </div> -->
+  <v-toolbar>
+    <v-toolbar-title>
+      <router-link to="/">
+        <img src="@/assets/IPDS_logo.jpg" width="150" />
+      </router-link>
+    </v-toolbar-title>
+    <v-spacer></v-spacer>
+    <v-btn text v-if="!loggedIn" @click="$router.push('/login')">
+      <span class="mr-2">Log-In</span>
+    </v-btn>
+    <v-btn text v-else @click="handleLogOut">
+      <span class="mr-2">Log-Out</span>
+    </v-btn>
+  </v-toolbar>
 </template>
 
 <script>
